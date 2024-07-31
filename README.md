@@ -26,7 +26,7 @@ Welcome to the Strong keyboard layout!
 
 Here's the keyboard layout with finger heatmap:
 
-<img src="https://raw.githubusercontent.com/andrew-drogalis/Stance/main/strong-layout.png" alt="Stance Alt Keyboard" style="padding-top: 10px;">
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Strong/main/strong-layout.png" alt="Strong Alt Keyboard" style="padding-top: 10px;">
 
 ```
 Strong
@@ -37,7 +37,7 @@ p k j c v z m ' ; .
 
 And here is the statistics from the oxeylyzer keyboard analyzer:
 
-<img src="https://raw.githubusercontent.com/andrew-drogalis/Stance/main/strong-stats.png" alt="Stance Alt Keyboard" style="padding-top: 10px;">
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Strong/main/strong-stats.png" alt="Strong Alt Keyboard" style="padding-top: 10px;">
 
 ```
 Strong
