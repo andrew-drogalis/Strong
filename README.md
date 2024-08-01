@@ -3,6 +3,8 @@
 
 Welcome to the Strong keyboard layout!
 
+If you have a Linux, Mac, or Windows layout software and want to contribute it to the repository, submit a pull request. Thank you!
+
 ## Table of Contents
 
 * [Goals](#Goals)
@@ -15,12 +17,28 @@ Welcome to the Strong keyboard layout!
     * [QWERTY and Vim](#QWERTY-and-Vim)
 * [Weaknesses](#Weaknesses)
 * [Terminology](#Terminology)
-* [Edymology](#Edymology)
+* [Etymology](#Etymology)
 * [Sources](#Sources)
 * [Contact](#Contact)
 
 ## Goals
 
+The goal of this project was to improve upon the design of Sturdy and Canary, either by increasing rolls and maintaining redirects or maintaining rolls and decreasing redirects.
+
+Here's a brief summary table of the main statistics for each:
+
+```
+                     Strong      Sturdy     Canary
+Sfb:                 0.990%      0.935%     0.962%
+Dsfb:                6.238%      6.222%     8.057%
+Lsb:                 0.607%      2.413%     2.675%
+
+Total Rolls:        48.010%     48.082%    48.537%
+Total Redirects:     3.818%      5.399%     7.152%
+```
+[Data Source](https://getreuer.info/posts/keyboards/alt-layouts/stats.html)
+
+There are other important metrics to consider, such as hand split, scissors, Vim usage, and difficulty to learn from QWERTY — all to be discussed below.
 
 ## Layout
 
@@ -40,7 +58,7 @@ And here is the statistics from the oxeylyzer keyboard analyzer:
 <img src="https://raw.githubusercontent.com/andrew-drogalis/Strong/main/strong-stats.png" alt="Strong Alt Keyboard" style="padding-top: 10px;">
 
 ```
-Strong
+                     Strong
 Sfb:                 0.990%
 Dsfb:                6.238%
 Lsb:                 0.607% 
@@ -59,17 +77,27 @@ BadRedirects:        0.229%
 Total Redirects:     3.818%
 ```
 
-### Hand Split
+#### Hand Split
 
-### Extremely Low LSB
+It's important to have a
 
-### High Rolls
+```
+                 Strong     Sturdy    Canary
+Right Hand:      49.43%     55.13%    56.09%
+Left Hand:       50.22%     44.52%    43.56%
+```
 
-### Low Redirects
+#### Very Low LSB
 
-### Low SFB
+I
 
-### QWERTY and Vim
+#### High Rolls
+
+#### Low Redirects
+
+#### Low SFB
+
+#### QWERTY and Vim
 
 ## Weaknesses
 
@@ -86,9 +114,13 @@ letter P
 - Roll: A trigram which changes hands once (excluding SFBs)
 - Alternate: A trigram which changes hands twice (excluding SFBs)
 
+## Etymology
+
+The name comes from an anagram of the left hand home row, 'NTRSG' -> 'STRNG'. It was either, Strong, String, Strung, or Strang, so Strong seemed like the best choice!
+
 ## Sources
 
-Much inspiration for this layout came from these sources. I highly recommend checking them out.
+A great deal of inspiration came from these sources, and I highly recommend checking them out:
 
 - [Sturdy](https://oxey.dev/sturdy/index.html)
 - [Canary](https://github.com/Apsu/Canary)
@@ -98,6 +130,6 @@ Much inspiration for this layout came from these sources. I highly recommend che
 
 ## Contact
 
-Open an issue, and I will respond as soon as possible.
+You can open an issue, and I will respond as soon as possible, or send an email to:
 
 - Github Email: [108765079+andrew-drogalis@users.noreply.github.com](mailto:108765079+andrew-drogalis@users.noreply.github.com)
