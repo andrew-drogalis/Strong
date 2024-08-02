@@ -10,12 +10,15 @@ If you have a Linux, Mac, or Windows layout software and want to contribute it t
 * [Goals](#Goals)
 * [Layout](#Layout)
     * [Hand Split](#Hand-Split)
-    * [Very Low LSB](#Very-Low-LSB)
-    * [High Rolls](#High-Rolls)
-    * [Low Redirects](#Low-Redirects)
-    * [Low SFB](#Low-SFB)
     * [QWERTY and Vim](#QWERTY-and-Vim)
+    * [Full Statistics](#Full-Statistics)
+        * [Rolls](#Rolls)
+        * [Redirects](#Redirects)
+        * [LSB](#LSB)
+        * [SFB](#SFB)
 * [Weaknesses](#Weaknesses)
+    * [Left Pinky](Left-Pinky)
+    * [Scissors](Scissors)
 * [Terminology](#Terminology)
 * [Etymology](#Etymology)
 * [Sources](#Sources)
@@ -23,18 +26,18 @@ If you have a Linux, Mac, or Windows layout software and want to contribute it t
 
 ## Goals
 
-The goal of this project was to improve upon the design of Sturdy and Canary, either by increasing rolls and maintaining redirects or maintaining rolls and decreasing redirects.
+The goal of this project was to improve upon the design of Sturdy, Canary, and Gallium either by increasing rolls and maintaining redirects or maintaining rolls and decreasing redirects.
 
 Here's a brief summary table of the main statistics for each:
 
 ```
-                     Strong      Sturdy     Canary
-Sfb:                 0.990%      0.935%     0.962%
-Dsfb:                6.238%      6.222%     8.057%
-Lsb:                 0.607%      2.413%     2.675%
+                     Strong      Sturdy     Canary     Gallium    Graphite
+Sfb:                 0.990%      0.935%     0.962%     0.956%     0.996% 
+Dsfb:                6.236%      6.222%     8.057%     6.456%     6.260%
+Lsb:                 0.293%      2.413%     2.675%     1.456%     1.358%
 
-Total Rolls:        48.010%     48.082%    48.537%
-Total Redirects:     3.818%      5.399%     7.152%
+Total Rolls:        48.010%     48.082%    48.537%    44.566%    44.276%
+Total Redirects:     3.763%      5.399%     7.152%     3.157%     3.043%
 ```
 [Data Source](https://getreuer.info/posts/keyboards/alt-layouts/stats.html)
 
@@ -48,9 +51,9 @@ Here's the keyboard layout with finger heatmap:
 
 ```
 Strong
-b d l y w q f o u ,
-n t r s g x h a e i
-p k j c v z m ' ; .
+p l d y w q f o u ,
+n r t s g x h a e i
+b j k c v z m ' ; .
 ```
 
 And here is the statistics from the oxeylyzer keyboard analyzer:
@@ -60,21 +63,21 @@ And here is the statistics from the oxeylyzer keyboard analyzer:
 ```
                      Strong
 Sfb:                 0.990%
-Dsfb:                6.238%
-Lsb:                 0.607% 
+Dsfb:                6.236%
+Lsb:                 0.293% 
 
-Inrolls:            22.933%
-Outrolls:           25.077%
+Inrolls:            24.089%
+Outrolls:           23.922%
 Total Rolls:        48.010%
-Onehands:            1.448%
+Onehands:            1.503%
 
 Alternates:         30.963%
 Alternates (sfs):    7.270%  
 Total Alternates:   38.233%
 
-Redirects:           3.588%
-BadRedirects:        0.229%
-Total Redirects:     3.818%
+Redirects:           3.368%
+BadRedirects:        0.394%
+Total Redirects:     3.763%
 ```
 
 #### Hand Split
@@ -82,26 +85,44 @@ Total Redirects:     3.818%
 It's important to have a
 
 ```
-                 Strong     Sturdy    Canary
-Right Hand:      49.43%     55.13%    56.09%
-Left Hand:       50.22%     44.52%    43.56%
+                 Strong     Sturdy    Canary    Gallium    Graphite
+Right Hand:      49.43%     55.13%    56.09%    51.50%     51.74%
+Left Hand:       50.22%     44.52%    43.56%    48.14%     48.07%
 ```
 
-#### Very Low LSB
-
-I
-
-#### High Rolls
-
-#### Low Redirects
-
-#### Low SFB
+These don't sum to 100% due to use of other symbols outside the 30 key layout.
 
 #### QWERTY and Vim
 
+#### Full Statistics
+
+- Extremely Low LSB
+
+- High Rolls
+
+- Low Redirects
+
+- Low SFB
+
 ## Weaknesses
 
-letter P
+#### Left Pinky
+
+relatively higher left pinky usage compared to other layouts
+
+
+```
+                 Strong     Sturdy    Canary    Gallium    Graphite 
+Left Pinky:      10.32%      7.53%     4.96%     8.46%      8.35%
+```
+
+#### Scissors
+
+```
+                          Strong     Sturdy    Canary    Gallium    Graphite
+Pinky/Ring Scissors:       0.93%      0.41%     0.38%     0.49%      0.25%
+```
+
 
 ## Terminology
 
@@ -124,7 +145,8 @@ A great deal of inspiration came from these sources, and I highly recommend chec
 
 - [Sturdy](https://oxey.dev/sturdy/index.html)
 - [Canary](https://github.com/Apsu/Canary)
-- [Stance](https://github.com/andrew-drogalis/Stance)
+- [Gallium](https://github.com/GalileoBlues/Gallium)
+- [Graphite](https://github.com/rdavison/graphite-layout)
 - [Keyboard Doc](https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit#heading=h.rnpdk4wy8guw)
 - [Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)
 
