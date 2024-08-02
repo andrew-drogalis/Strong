@@ -1,0 +1,39 @@
+
+default partial
+xkb_symbols "basic" {
+    include "us(basic)"
+
+    name[Group1] = "Strong";
+
+    key <AD01> {[ p, P ]};
+    key <AD02> {[ l, L ]};
+    key <AD03> {[ d, D ]};
+    key <AD04> {[ y, Y ]};
+    key <AD05> {[ w, W ]};
+    key <AD06> {[ q, Q ]};
+    key <AD07> {[ f, F ]};
+    key <AD08> {[ o, O ]};
+    key <AD09> {[ u, U ]};
+    key <AD10> {[ comma, less ]};
+    key <AC01> {[ n, N ]};
+    key <AC02> {[ r, R ]};
+    key <AC03> {[ t, T ]};
+    key <AC04> {[ s, S ]};
+    key <AC05> {[ g, G ]};
+    key <AC06> {[ x, X ]};
+    key <AC07> {[ h, H ]};
+    key <AC08> {[ a, A ]};
+    key <AC09> {[ e, E ]};
+    key <AC10> {[ i, I ]};
+    key <AC11> {[ slash, question ]};
+    key <AB01> {[ b, B ]};
+    key <AB02> {[ j, J ]};
+    key <AB03> {[ k, K ]};
+    key <AB04> {[ c, C ]};
+    key <AB05> {[ v, V ]};
+    key <AB06> {[ z, Z ]};
+    key <AB07> {[ m, M ]};
+    key <AB08> {[ apostrophe, quotedbl ]};
+    key <AB09> {[ semicolon, colon ]};
+    key <AB10> {[ period, greater ]};
+};
